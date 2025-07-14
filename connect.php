@@ -1,6 +1,8 @@
 <?php
+
+
 $host = 'localhost';
-$db   = 'clothing_store';
+$db   = 'clothing_stotre';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
@@ -13,3 +15,4 @@ try {
 } catch (\PDOException $e) {
     die("Database Connection Failed: " . $e->getMessage());
 }
+?>
